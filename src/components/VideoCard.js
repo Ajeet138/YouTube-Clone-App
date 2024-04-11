@@ -6,9 +6,9 @@ const VideoCard = ({ info }) => {
     <div className="w-72 px-2 m-2 shadow-lg">
       <img className="rounded-lg" src={thumbnails.medium.url} alt="thumbnail" />
       <ul>
-        <li className="font-bold py-2">{title}</li>
+        <li className="font-bold py-2 truncate">{title}</li>
         <li>{channelTitle}</li>
-        <li>{statistics.viewCount}</li>
+        <li>Views {statistics.viewCount}</li>
       </ul>
     </div>
   );
