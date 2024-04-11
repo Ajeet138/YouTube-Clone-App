@@ -108,15 +108,15 @@ const Header = () => {
         )}
       </div>
 
-      <div className="col-span-1 py-4">
-        <div className="flex border border-gray-300 rounded-full px-4 text-blue-500 cursor-pointer">
+      <div className="col-span-1 py-4 my-auto">
+        <div className="flex border border-gray-300 rounded-full px-4 py-1 text-blue-500 cursor-pointer">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="w-7 h-7  "
+            class="w-6 h-6  "
           >
             <path
               stroke-linecap="round"
